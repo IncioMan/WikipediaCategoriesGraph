@@ -1,4 +1,4 @@
-# Wikipedia-Heavy-Hitters
+# Wikipedia Categories Graph
 This repository contains the code to create the graph of the categories in Wikipedia.
 
 ## Table of Contents
@@ -44,7 +44,7 @@ Change directory into the target directory (./wikipedia-graph-neo4j/target) and 
 Make sure to replace the placeholder <> with the paths to the downloaded files.
 This process takes several hours.
 
-### Exposing the HTTP interface used by the Python program
+### Exposing the HTTP interface
 
 Simply run
 
@@ -61,6 +61,8 @@ The query params start-category represents the categories the articles has, the 
 Example of shortest path http request:
 
     http://localhost:8080/shortestPath?startCategory=Database_management_systems&endCategory=Arts&maxPathLength=10
+
+You may have implemented other APIs to query the graph. If you used _@Controller Spring Annotation_, these will be available at the same host and port.
 
 ## License
 The package is Open Source Software released under the [MIT](LICENSE) license.
