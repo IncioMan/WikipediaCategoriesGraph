@@ -56,7 +56,7 @@ Example of article mapping http request:
 
     http://localhost:8080/mapCategory?startCategories=Database_management_systems::Databases&endCategories=Arts::Geography::Technology::Science::People::World
 
-The query params start-category represents the categories the articles has, the end-categories represent the macro-category. One of the macro-category will be returned as result of the mapping. More on this algorithm of mapping can be read in the final paper of the [project]((https://github.com/cenh/Wikipedia-Heavy-Hitters/)).
+The query params start-category represents the categories the articles has, the end-categories represent the macro-category. One of the macro-category will be returned as result of the mapping. More on this algorithm of mapping can be read in the final paper of the [project](https://github.com/cenh/Wikipedia-Heavy-Hitters/).
 
 Example of shortest path http request:
 
